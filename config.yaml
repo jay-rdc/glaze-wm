@@ -36,6 +36,13 @@ bar:
       background: "#ffffff33"
       margin: "0 4px 0 0"
       padding: "0 8px"
+    - type: "battery"
+      draining: " {battery_level}% remaining "
+      power_saver: " {battery_level}% (power saver) "
+      charging: " {battery_level}% (charging) "
+      margin: "0 10px"
+    - type: "text"
+      text: "|"
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
