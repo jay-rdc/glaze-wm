@@ -151,11 +151,11 @@ keybindings:
   - command: "exec %userprofile%/Documents/shortcuts/WSL"
     binding: "Alt+Enter"
 
-  # start firefox
-  - command: "exec firefox"
+  # start msedge
+  - command: "exec msedge"
     binding: "Alt+B"
-  # start private firefox
-  - command: "exec firefox -private-window"
+  # start inprivate msedge
+  - command: "exec msedge --inprivate"
     binding: "Alt+Shift+B"
 
   # Focus the workspace that last had focus.
